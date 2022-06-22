@@ -3,5 +3,5 @@
 const questionContainer = document.querySelector(".click-event");
 
 questionContainer.addEventListener('click', () =>{
-    questionContainer.style.background = "red";
+    questionContainer.classList.toggle("question-clicked");
 });

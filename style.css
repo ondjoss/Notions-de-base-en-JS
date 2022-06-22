@@ -23,3 +23,7 @@ p{
     width: 240px;
     margin: 10px auto 0;
 }
+
+.question-clicked{
+    background: red;
+}
