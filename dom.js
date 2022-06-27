@@ -41,3 +41,7 @@ window.addEventListener("mouseup", () => {
 questionContainer.addEventListener("mouseenter", () => {
     questionContainer.style.background = "rgba(0, 0, 0, 0.5)";
 });
+
+questionContainer.addEventListener("mouseout", () => {
+    questionContainer.style.background = "purple";
+})
