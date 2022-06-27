@@ -29,3 +29,11 @@ window.addEventListener("mousemove", (e) => {
     mousemove.style.left = e.pageX + "px";
     mousemove.style.top = e.pageY + "px";
 });
+
+window.addEventListener("mousedown", () => {
+    mousemove.style.border = "2px solid black";
+});
+
+window.addEventListener("mouseup", () => {
+    mousemove.style.border = "2px solid red";
+});
