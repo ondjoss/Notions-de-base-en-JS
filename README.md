@@ -2,4 +2,4 @@
 
 ## Gestion du DOM
 
-Au cours de ce cours, ils ont appris à gérer quelques événements du DOM.
+Au cours de ce cours, ils ont appris à quelques notions sur la gestion du DOM.
