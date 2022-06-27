@@ -37,3 +37,7 @@ window.addEventListener("mousedown", () => {
 window.addEventListener("mouseup", () => {
     mousemove.style.border = "2px solid red";
 });
+
+questionContainer.addEventListener("mouseenter", () => {
+    questionContainer.style.background = "rgba(0, 0, 0, 0.5)";
+});
