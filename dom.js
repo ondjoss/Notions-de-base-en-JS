@@ -45,3 +45,14 @@ questionContainer.addEventListener("mouseenter", () => {
 questionContainer.addEventListener("mouseout", () => {
     questionContainer.style.background = "purple";
 })
+
+//----------------------------------------------------
+//KeyPress Event -:)
+
+
+const keypressContainer = document.querySelector(".keypress");
+const key = document.getElementById("key");
+
+document.addEventListener("keypress", (e) => {
+    key.textContent = e.key;
+});
